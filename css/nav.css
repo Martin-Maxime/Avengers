@@ -8,13 +8,8 @@ header{
     z-index: 10;
 } 
 header a#logoNav{
-	display:inline;
-	position:absolute;
-	left:660px;
-	top:12px;
 	width:45px;
 	height:45px;
-    z-index: 11;
 }
 
 header a#logoNav:hover{
@@ -24,22 +19,18 @@ header a#logoNav:hover{
 }
 
   header nav ul{
-      height: 70px;
-      display: flex;
+    height: 70px;
+    display: flex;
 	justify-content: center;
-  align-items: center;
+  	align-items: center;
       
       
 }
 
   header nav ul li{
 	display: inline-block;
-	padding-top: 25px;
 	margin-right: 40px;
 	text-align: center;
-}
-  header nav ul li:nth-child(2){
-	padding-right: 80px;
 }
 
   header nav ul li a{

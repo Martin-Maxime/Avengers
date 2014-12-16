@@ -1,17 +1,13 @@
 /*COMPTEUR DE TEMPS */
 
 
-
-ul{
-    position: absolute;
-    bottom: 40px;
-    right: 483px;
-    position: fixed;
-}
-
 ul#countdown {
 	margin: 80px auto;
 	padding: 0;
+	position: absolute;
+    bottom: 40px;
+    right: 483px;
+    position: fixed;
     
 }
 ul#countdown li{
