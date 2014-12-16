@@ -1,3 +1,4 @@
+
 header{
     position: fixed;
 	width: 100%;
@@ -7,18 +8,24 @@ header{
 	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
     z-index: 10;
 } 
-header a#logoNav{
+header li#logoNav{
 	width:45px;
 	height:45px;
+
+
 }
 
-header a#logoNav:hover{
+header li#logoNav:hover{
 	border:2px solid #fff;
 	border-radius: 25px;
-	transition:all 0.5s ease; /*CSS3 */
+	-moz-box-shadow: 0 0 5px 5px #888 0.6;
+	-webkit-box-shadow: 0 0 5px 5px #888 0.6;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.6);
+	transition:all 0.6s ease; /*CSS3 */
+	
 }
 
-  header nav ul{
+header nav ul{
     height: 70px;
     display: flex;
 	justify-content: center;
@@ -27,25 +34,26 @@ header a#logoNav:hover{
       
 }
 
-  header nav ul li{
+header nav ul li{
 	display: inline-block;
 	margin-right: 40px;
 	text-align: center;
 }
 
-  header nav ul li a{
+header nav ul li a{
 	text-decoration: none;
 	font-family: 'Righteous', cursive;
 	text-transform: uppercase;
 	color:#fff;
 	letter-spacing: 2px;
+	font-size: 14px;
 }
 
-  header nav ul li a:hover{
+header nav ul li:not(#logoNav) a:hover{
 	color:#fff;
 	font-weight: bold;
 	border-bottom: 3px solid #fff;
-	padding-bottom: 13px;
+	padding-bottom: 10px;
 	transition:all 0.5s ease; /*CSS3 */
 }
 
