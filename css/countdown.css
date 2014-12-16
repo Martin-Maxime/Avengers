@@ -5,8 +5,9 @@ ul#countdown {
 	margin: 80px auto;
 	padding: 0;
 	position: absolute;
-    bottom: 40px;
-    right: 483px;
+    top: 70%;
+    right: 50%;
+    margin-right: -190px;
     position: fixed;
     
 }
