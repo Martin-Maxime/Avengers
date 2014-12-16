@@ -1,0 +1,17 @@
+body{
+	background-color: black;
+	background-image:url(../img/fond.jpg);
+}
+.cont{
+	width: 980px;
+	margin:0 auto ;
+}
+
+.slider1_container{
+	margin-left: 20%;
+	margin-top: 100px;
+}
+
+#slider1_container{
+	box-shadow: 0 0 20px rgba(65, 2, 2, 0.9);
+}

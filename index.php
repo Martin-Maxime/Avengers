@@ -20,8 +20,8 @@
             <video autoplay loop poster="avengers" id="bgvid" muted height="1024px">
                 <source src="avengers_2/avengers_2.ogv" type='video/ogg; codecs="theora, vorbis"'/>
                 <source src="avengers_2/avengers_2.webm" type='video/webm' >
-<!--                <source src="video/avengers2.mp4" type='video/mp4'>-->
-<!--                <source src="video/avengers_2.mp4" type="video/mp4">-->
+                <source src="video/avengers2.mp4" type='video/mp4'>
+                <source src="video/avengers_2.mp4" type="video/mp4">
             </video>
             <button id="vidpause">Pause</button>
             
