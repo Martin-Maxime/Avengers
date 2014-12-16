@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Avengers</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="avengersFont/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/countdown.css">
   <link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
@@ -17,7 +18,7 @@
        <?php include('navigation.php');?>
          
             <!--Background Video-->
-            <video autoplay loop poster="avengers" id="bgvid"  height="1024px">
+            <video autoplay muted loop poster="avengers" id="bgvid"  height="1024px">
                 <source src="avengers_2/avengers_2.ogv" type='video/ogg; codecs="theora, vorbis"'/>
                 <source src="avengers_2/avengers_2.webm" type='video/webm' >
 <!--
@@ -33,7 +34,7 @@
        
         
 <!--            annonce de temps-->
-            <h2 id="sortie">Disponible le 29 Avril 2015 soit dans : </h2>
+            <h2 id="sortie">Dans les salles dans : </h2>
             
 <!--             Compteur de Temps-->
         
@@ -59,7 +60,6 @@
 	        </ul>
         </div>
         
-        
     </div>
     <div id="content">
         
@@ -77,6 +77,8 @@ Afin d’empêcher celui-ci d’accomplir ses sombres desseins,
 des alliances inattendues se scellent, les entraînant dans 
 une incroyable aventure et une haletante course contre le temps… </p>
        </div>
+       
+       <img src="img/mioumiou.png" alt="">
     </div>
 <!--        End compteur-->
         
