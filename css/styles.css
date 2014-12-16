@@ -104,6 +104,19 @@ text-align:center;
     color:rgba(255, 255, 255, 0.51)
 	
 }
+
+
+div#synopsis{
+    position: absolute;
+    top: 20%;
+    right: 29%;
+    width: 45%;
+    height: auto;
+    text-align: center;
+    font: 20px 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    background: rgba(60, 2, 2, 0.96);
+}
 #synopsis h3{
     background: rgba(38, 2, 2, 0.92);
     height: 50px;
@@ -111,18 +124,6 @@ text-align:center;
     text-align: center;
     padding-top: 10px;
     box-sizing: border-box;
-}
-
-div#synopsis{
-    position: absolute;
-    top: 250px;
-    right: 29%;
-    width: 592px;
-    height: auto;
-    text-align: center;
-    font: 20px 'Oswald', sans-serif;
-    letter-spacing: 2px;
-    background: rgba(60, 2, 2, 0.96);
 }
 
 div#synopsis p{
