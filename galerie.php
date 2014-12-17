@@ -16,6 +16,7 @@
   <?php include("navigation.php") ?>
     <div class="cont">
     <img src="fond.jpg">
+    <script type="text/javascript" src="js/grossi.js"></script>
     <!-- it works the same with all jquery version from 1.x to 2.x -->
     <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
     <!-- use jssor.slider.mini.js (40KB) instead for release -->
@@ -145,55 +146,55 @@
         </div>
 
         <!-- Slides Container -->
-        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 808px; height: 356px; overflow: hidden;">
-            <div>
+        <div u="slides" style="cursor:Pointer; position: absolute; left: 0px; top: 0px; width: 808px; height: 356px; overflow: hidden;">
+            <div class="thumbnail">
                 <img u="image" src="img/photo1.jpg" />
                 <img u="thumb" src="img/photo1.jpg" />
             </div>
-            <div>
+            <div class="thumbnail">
                 <img u="image" src="img/photo2.jpg" />
                 <img u="thumb" src="img/photo2.jpg" />
             </div>
-            <div>
+            <div class="thumbnail">
                 <img u="image" src="img/photo3.jpg" />
                 <img u="thumb" src="img/photo3.jpg" />
             </div>
-            <div>
+            <div class="thumbnail">
                 <img u="image" src="img/photo4.jpg" />
                 <img u="thumb" src="img/photo4.jpg" />
             </div>
-            <div>
+            <div class="thumbnail">
                 <img u="image" src="img/photo5.jpg" />
                 <img u="thumb" src="img/photo5.jpg" />
             </div>
-            <div>
+            <div class="thumbnail">
                 <img u="image" src="img/photo6.jpg" />
                 <img u="thumb" src="img/photo6.jpg" />
             </div>
-            <div>
+            <div class="thumbnail">
                 <img u="image" src="img/photo7.jpg" />
                 <img u="thumb" src="img/photo7.jpg" />
             </div>
-            <div>
+            <div class="thumbnail">
                 <img u="image" src="img/photo8.jpg" />
                 <img u="thumb" src="img/photo8.jpg" />
             </div>
-            <div>
+            <div class="thumbnail">
                 <img u="image" src="img/photo9.jpg" />
                 <img u="thumb" src="img/photo9.jpg" />
             </div>
-            <div>
+            <div class="thumbnail">
                 <img u="image" src="img/photo10.jpg" />
                 <img u="thumb" src="img/photo10.jpg" />
             </div>
             
-            <div>
+            <div class="thumbnail">
                 <img u="image" src="img/photo11.jpg" />
                 <img u="thumb" src="img/photo11.jpg" />
             </div>
-            <div>
-                <img u="image" src="img/photo12.jpg" />
-                <img u="thumb" src="img/photo12.jpg" />
+            <div class="thumbnail">
+                <img u="image" src="img/photo6.jpeg" />
+                <img u="thumb" src="img/photo6.jpeg" />
             </div>
         </div>
         
