@@ -27,7 +27,7 @@ ul#countdown li{
 }
 ul#countdown span {
 	padding-left: 5px;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Slabo 27px', arial , serif;
 }
 ul#countdown  p.timeRefDays, ul#countdown  p.timeRefHours, ul#countdown  p.timeRefMinutes, ul#countdown  p.timeRefSeconds{
 	

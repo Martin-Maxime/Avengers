@@ -11,7 +11,7 @@
 body{
     background: #000;
     color: #fff;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald',Arial, sans-serif;
     font-weight: 300;
 }
 
@@ -21,9 +21,6 @@ body{
 video#bgvid {
     position: relative;
     padding-top: 70px;
-    /*right: 0; 
-    bottom: 0;*/
-   
     min-width: 100%;
     height: calc(100vh - 70px);
     width: 100%; 
@@ -56,12 +53,16 @@ div.logoVideo{
 /*H2*/
 h2#sortie{
     color: rgba(255, 255, 255, 0.59);
-    font-family: 'Oswald', sans-serif;
+    font-family: 'avengeance_heroic_avengerbold','Oswald', sans-serif;
     width: 500px;
     position: absolute;
     top: 70%;
     right: 50%;
+<<<<<<< HEAD
     margin-right: -300px;
+=======
+    margin-right: -380px;
+>>>>>>> FETCH_HEAD
     
     position: fixed;
     font-weight: 400;
@@ -94,15 +95,29 @@ text-align:center;
 }
 
 
+
 /*Spynosie*/
-#content {
-    height: 750px;
+div#content {
+    height: 700px;
     width: 100%; 
     background-color:rgba(65, 2, 2, 0.9);
     position: relative;
     z-index: 1;
     color:rgba(255, 255, 255, 0.51)
 	
+}
+
+
+div#synopsis{
+    position: absolute;
+    top: 20%;
+    right: 29%;
+    width: 45%;
+    height: auto;
+    text-align: center;
+    font: 20px 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    background: rgba(60, 2, 2, 0.96);
 }
 #synopsis h3{
     background: rgba(38, 2, 2, 0.92);
@@ -111,25 +126,17 @@ text-align:center;
     text-align: center;
     padding-top: 10px;
     box-sizing: border-box;
-}
-
-div#synopsis{
-    position: absolute;
-    top: 250px;
-    right: 29%;
-    width: 592px;
-    height: auto;
-    text-align: center;
-    font: 20px 'Oswald', sans-serif;
-    letter-spacing: 2px;
-    background: rgba(60, 2, 2, 0.96);
+    font-family: avengeance_heroic_avengerbold;
+    letter-spacing: 5px;
 }
 
 div#synopsis p{
     text-align: justify;
     line-height: 30px;
     font-weight: 300;
+    
 }
+
 h3{
 /*    text-align: center;*/
     

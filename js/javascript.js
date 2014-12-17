@@ -2,47 +2,47 @@
 
 document.createElement('video');
 
-var vid = document.getElementById("bgvid");
+// var vid = document.getElementById("bgvid");
 
-var pauseButton = document.getElementById("vidpause");
+// var pauseButton = document.getElementById("vidpause");
 
-function vidFade() {
+// function vidFade() {
 
-vid.classList.add("stopfade");
+// vid.classList.add("stopfade");
 
-}
+// }
 
-vid.addEventListener('ended', function() {
+// vid.addEventListener('ended', function() {
 
-// only functional if "loop" is removed
+// // only functional if "loop" is removed
 
-vid.pause();
+// vid.pause();
 
-// to capture IE10
+// // to capture IE10
 
-vidFade();
+// vidFade();
 
-});
+// });
 
-pauseButton.addEventListener("click", function() {
+// pauseButton.addEventListener("click", function() {
 
-vid.classList.toggle("stopfade");
+// vid.classList.toggle("stopfade");
 
-if (vid.paused) {
+// if (vid.paused) {
 
-vid.play();
+// vid.play();
 
-pauseButton.innerHTML = "Pause";
+// pauseButton.innerHTML = "Pause";
 
-} else {
+// } else {
 
-vid.pause();
+// vid.pause();
 
- pauseButton.innerHTML = "Paused";
+//  pauseButton.innerHTML = "Paused";
 
-}
+// }
 
-})
+// })
 
 
 $("bgvid").prop('muted', true);
