@@ -1,21 +1,5 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Gallery Theme - Jssor Slider, Carousel, Slideshow with Javascript Source Code</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/nav.css">
-    <link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-</head>
-
-<body>
-<div class="conte">
-  <?php include("navigation.php") ?>
-    <div class="cont">
-    <img src="fond.jpg">
+<div class="fond">
+<div class="cont">
     <script type="text/javascript" src="js/grossi.js"></script>
     <!-- it works the same with all jquery version from 1.x to 2.x -->
     <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
@@ -292,6 +276,150 @@
     </div>
     </div> <!-- fin du cont -->
     <!-- Jssor Slider End -->
-    </div>
-</body>
-</html>
+
+    <div id="wrapper">
+    
+        <ul>
+            <li>
+                <a href="img/1.jpg" class="lightbox_trigger"><img src="thumb/tn_1.jpg" alt="">
+                    </a>
+            </li>
+            <li>
+                <a href="img/2.jpg" class="lightbox_trigger"><img src="thumb/tn_2.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/3.jpg" class="lightbox_trigger"><img src="thumb/tn_3.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/4.jpg" class="lightbox_trigger"><img src="thumb/tn_4.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/5.jpg" class="lightbox_trigger"><img src="thumb/tn_5.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/6.jpg" class="lightbox_trigger"><img src="thumb/tn_6.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/7.jpg" class="lightbox_trigger"><img src="thumb/tn_7.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/8.jpg" class="lightbox_trigger"><img src="thumb/tn_8.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/9.jpg" class="lightbox_trigger"><img src="thumb/tn_9.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/10.jpg" class="lightbox_trigger"><img src="thumb/tn_10.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/11.jpg" class="lightbox_trigger"><img src="thumb/tn_11.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/12.jpg" class="lightbox_trigger"><img src="thumb/tn_12.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/13.jpg" class="lightbox_trigger"><img src="thumb/tn_13.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/14.jpg" class="lightbox_trigger"><img src="thumb/tn_14.jpg" alt="">
+                    </a>
+            </li>
+
+            <li>
+                <a href="img/15.jpg" class="lightbox_trigger"><img src="thumb/tn_15.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/16.jpg" class="lightbox_trigger"><img src="thumb/tn_16.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/17.jpg" class="lightbox_trigger"><img src="thumb/tn_17.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/18.jpg" class="lightbox_trigger"><img src="thumb/tn_18.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/19.jpg" class="lightbox_trigger"><img src="thumb/tn_19.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/28.png" class="lightbox_trigger"><img src="thumb/tn_28.png" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/21.jpg" class="lightbox_trigger"><img src="thumb/tn_21.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/22.jpg" class="lightbox_trigger"><img src="thumb/tn_22.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/23.jpg" class="lightbox_trigger"><img src="thumb/tn_23.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/24.jpg" class="lightbox_trigger"><img src="thumb/tn_24.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/25.jpg" class="lightbox_trigger"><img src="thumb/tn_25.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/26.jpg" class="lightbox_trigger"><img src="thumb/tn_26.jpg" alt="">
+                    </a>
+            </li>
+                
+            <li>
+                <a href="img/27.jpg" class="lightbox_trigger"><img src="thumb/tn_27.jpg" alt="">
+                    </a>
+            </li>
+                
+                
+        </ul>
+     
+    </div> <!-- #/wrapper -->
+    <script src="js/annexe.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+    <script src="js/annexe.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+</div>
