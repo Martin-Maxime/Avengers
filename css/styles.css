@@ -68,7 +68,7 @@ header{
     height:45px;
     position:absolute;
     left: 48%;
-    top:10px;
+    top:15px;
 }
 #logoNav a img:hover{
     transform: rotate(360deg);
@@ -79,9 +79,11 @@ header nav{
     width: 100%;
 }
 header nav ul{
-    margin-top:20px;
+
     height: 70px;
     text-align: center;
+    box-sizing: border-box;
+    line-height: 70px
 }
 header nav ul li{
     display: inline-block;
@@ -307,9 +309,10 @@ p{
 
 
 div#content {
-    height: 800px;
+    height: 580px;
     width: 100%; 
     background-color:rgba(65, 2, 2, 0.9);
+    overflow: scroll;
     position: relative;
     z-index: 1;
     color:rgba(255, 255, 255, 0.51);
@@ -317,7 +320,7 @@ div#content {
 
 div#synopsis{
     position: absolute;
-    top: 35%;
+    top: 20%;
     right: 29%;
     width: 45%;
     height: auto;
@@ -325,6 +328,7 @@ div#synopsis{
     font: 20px 'Oswald', sans-serif;
     letter-spacing: 2px;
     background: rgba(60, 2, 2, 0.96);
+    margin: 0 auto;
 }
 
 #synopsis h3{
@@ -365,16 +369,16 @@ div#content img.captain{
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 28%;
-    height: 70%;
+
+    height: 85%;
 }
 
 div#content img.thor{
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 28%;
-    height: 70%;
+
+    height: 85%;
 }
 
             /*video*/
@@ -407,7 +411,7 @@ div.teaser h2{
 }
 /*                galerie*/
 #wrapper {
-    width:60%; 
+    width:100%; 
     margin:0 auto; 
     border-radius:0 0 5px 5px;
     -moz-border-radius:0 0 5px 5px;
@@ -664,7 +668,7 @@ footer {
 }
 .term ul li {
     display: inline-block;
-    margin:13px 10px 10px 5px;
+    margin:13px 10px 0 5px;
     vertical-align: center;
 }
 .term ul li:first-child {
@@ -678,7 +682,7 @@ h3 {
 }
 .term{
     float: left;
-    margin: 30px 10px 30px 10px;
+    margin: 30px 10px 10px 10px;
     position:relative;
 }
 .term a img{

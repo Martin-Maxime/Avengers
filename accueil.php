@@ -6,7 +6,7 @@
     <source src="video/avengers2.mp4" type='video/mp4'>
     <source src="video/avengers_2.mp4" type="video/mp4">
 </video>
-            <button id="vidpause">Pause</button>
+            <!--<button id="vidpause">Pause</button>-->
             
 <!--            LOGO-->
            
