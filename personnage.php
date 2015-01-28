@@ -72,6 +72,21 @@
 				<span>Super Force</span>
 				<a class="button2" id="scrollButton" href="#" data-slide="2" title=""></a>
 			</section>
+			
+			<section class="matt">
+				<h2 class="matt">matthieu</h2>
+				<h3>LEBON</h3>
+				<h4>"C'est ça le secret, je suis toujours en colère."</h4>
+
+				<p>Victime de l'explosion d'une bombe à rayonnement gamma,</p>
+				<p>il devient le puissant et invincible Hulk dès qu'il se met en colère.</p>
+				<p>Il essaie de contenir le colosse en lui,</p>
+				<p>d'une puissance presque illimitée.</p>
+
+				<img src="img/persos/force.png" alt="Force">
+				<span>Super Force</span>
+				<a class="button2" id="scrollButton" href="#" data-slide="2" title=""></a>
+			</section>
 
 			<div id="thor" class="vide"></div>
 		     <section class="thor">
